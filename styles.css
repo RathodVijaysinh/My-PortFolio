@@ -159,27 +159,27 @@ a {
   .logo-container {
     /* Add margin bottom for logo container */
     justify-content: center;
-    /* Center align logo container */
   }
 
   .nav-item {
     flex-direction: column;
     align-items: center;
-    /* Center align navigation items */
     padding: 0;
-    /* Reset padding */
+
   }
+  
 
   .nav-item div {
     margin-right: 0;
     margin-bottom: 10px;
-    /* Add margin bottom to each navigation item */
+  
   }
 
   .burger-icon {
     display: block;
     cursor: pointer;
     margin-left: 40px;
+    margin-right: 10px;
   }
 
   .bar {
@@ -1032,8 +1032,8 @@ footer {
   .hero-section-right {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
+  
 
   .faded-text {
     bottom: 0%;
@@ -1169,16 +1169,18 @@ footer {
 }
 
 @media screen and (max-width: 458px) {
+  
   .hero-section {
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
 
   .hero-section-right {
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-items: center;
+    
   }
 
   .hero-section-left {
@@ -1187,13 +1189,22 @@ footer {
     display: flex;
     align-items: center;
     justify-items: center;
+   
 
+  }
+  .hero-section-sub-heading{
+    font-size: 30px;
+    text-align: center;
+  }
+  .hero-section-heading,.hero-section-description{
+    text-align: center;
+    margin: 0 4px;
   }
   
 
   .user-image img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
   }
 
   .hero-section-description {
