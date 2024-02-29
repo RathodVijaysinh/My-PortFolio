@@ -157,7 +157,6 @@ a {
   }
 
   .logo-container {
-    margin-bottom: 1rem;
     /* Add margin bottom for logo container */
     justify-content: center;
     /* Center align logo container */
@@ -1177,13 +1176,20 @@ footer {
   }
 
   .hero-section-right {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
   }
 
   .hero-section-left {
     width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 
   }
+  
 
   .user-image img {
     width: 200px;
